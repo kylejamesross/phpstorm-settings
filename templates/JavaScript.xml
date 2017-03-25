@@ -1,0 +1,48 @@
+<templateSet group="JavaScript">
+  <template name="rc" value="import React, {PropTypes} from 'react';&#10;&#10;const $COMPONENT_NAME$ = ({$PROPS$}) =&gt; (&#10;  $END$&#10;);&#10;&#10;$COMPONENT_NAME$.propTypes = {$PROPS$};&#10;&#10;export default $COMPONENT_NAME$;&#10;" shortcut="SPACE" description="Creates a react class" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pts" value=":PropTypes.string.isRequired" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptn" value=":PropTypes.number.isRequired" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rcn" value="import {connect} from 'react-redux';&#10;import $COMPONENT$ from $COMPONENTPATH$;&#10;&#10;const mapStateToProps = ($STATE_VAR$) =&gt; ({&#10;    $END$&#10;});&#10;&#10;const $NAME$ =&#10;connect(mapStateToProps)($COMPONENT$);&#10;&#10;export default $NAME$;&#10;&#10;" description="Create react container component" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <variable name="COMPONENT" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="COMPONENTPATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATE_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pta" value=": PropTypes.array.isRequired" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptr" value=":PropTypes.element.isRequired" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptf" value=":PropTypes.func.isRequired" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ptb" value=":PropTypes.bool.isRequired" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
