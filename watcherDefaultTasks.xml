@@ -1,6 +1,6 @@
 <application>
   <component name="ApplicationTasksOptions">
-    <TaskOptions isEnabled="false">
+    <TaskOptions isEnabled="true">
       <option name="arguments" value="$FileNameWithoutExtension$.jade --pretty" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="" />
@@ -44,7 +44,7 @@
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="false">
+    <TaskOptions isEnabled="true">
       <option name="arguments" value="$FileName$ -b &quot;beautify=false,ascii-only=true&quot; --source-map $FileNameWithoutExtension$.min.js.map -o $FileNameWithoutExtension$.min.js" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" value="Compress .js files" />
