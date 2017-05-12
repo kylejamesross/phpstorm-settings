@@ -6,12 +6,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="pts" value=":PropTypes.string.isRequired" toReformat="true" toShortenFQNames="true">
+  <template name="pts" value=":PropTypes.string.isRequired" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ptn" value=":PropTypes.number.isRequired" toReformat="true" toShortenFQNames="true">
+  <template name="ptn" value=":PropTypes.number.isRequired" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -30,17 +30,17 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ptr" value=":PropTypes.element.isRequired" toReformat="true" toShortenFQNames="true">
+  <template name="ptr" value=":PropTypes.element.isRequired" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ptf" value=":PropTypes.func.isRequired" toReformat="true" toShortenFQNames="true">
+  <template name="ptf" value=":PropTypes.func.isRequired" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="ptb" value=":PropTypes.bool.isRequired" toReformat="true" toShortenFQNames="true">
+  <template name="ptb" value=":PropTypes.bool.isRequired" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
