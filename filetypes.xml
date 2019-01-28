@@ -4,7 +4,6 @@
       <mapping pattern="wishlist-2-hover.svg" type="PLAIN_TEXT" />
       <mapping pattern="silverstripe_version" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
-      <mapping ext="graphql" type="PLAIN_TEXT" />
       <mapping ext="mysql" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
