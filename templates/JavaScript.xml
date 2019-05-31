@@ -1,6 +1,6 @@
 <templateSet group="JavaScript">
-  <template name="rc" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;const $COMPONENT_NAME$ = ({$PROPS$}) =&gt; (&#10;  $END$&#10;);&#10;&#10;$COMPONENT_NAME$.propTypes = {$PROPS$};&#10;&#10;export default $COMPONENT_NAME$;&#10;" shortcut="SPACE" description="Creates a react class" toReformat="true" toShortenFQNames="true">
-    <variable name="COMPONENT_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+  <template name="rc" value="import React from 'react'&#10;&#10;const $COMPONENT_NAME$ = ({$PROPS$}) =&gt; (&#10;  $END$&#10;)&#10;&#10;export default $COMPONENT_NAME$&#10;" shortcut="TAB" description="Creates a react class" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="camelCase(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
     <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -54,6 +54,13 @@
   </template>
   <template name="sc" value="import styled from 'react-emotion';&#10;&#10;const $COMPONENT_NAME$ = styled('div')`&#10;    $END$&#10;`;&#10;&#10;export default $COMPONENT_NAME$;&#10;" shortcut="SPACE" description="Styled Component" toReformat="true" toShortenFQNames="true">
     <variable name="COMPONENT_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rc2" value="import React from 'react';&#10;import PropTypes from 'prop-types';&#10;&#10;const $COMPONENT_NAME$ = ({$PROPS$}) =&gt; (&#10;  $END$&#10;);&#10;&#10;$COMPONENT_NAME$.propTypes = {$PROPS$};&#10;&#10;export default $COMPONENT_NAME$;&#10;" shortcut="TAB" description="Creates a react class" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="camelCase(fileNameWithoutExtension())" defaultValue="" alwaysStopAt="false" />
+    <variable name="PROPS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
