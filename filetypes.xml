@@ -5,6 +5,7 @@
       <mapping pattern="silverstripe_version" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping ext="prisma" type="PLAIN_TEXT" />
+      <mapping ext="scsss" type="PLAIN_TEXT" />
       <mapping ext="mysql" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
